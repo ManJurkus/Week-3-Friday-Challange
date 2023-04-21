@@ -1,0 +1,14 @@
+@import "/css/base/base.css";
+@import "/css/base/layout.css";
+
+.logo {
+    height: 50px;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+}
