@@ -1,9 +1,19 @@
 @import "/css/base/base.css";
 @import "/css/base/layout.css";
 
-.logo {
+.logo-1 {
     height: 50px;
     
+}
+
+.logo-2 {
+    height: 50px;
+    
+}
+
+.meniu-logo {
+    height: 50px;
+    display: none;
 }
 
 nav {
