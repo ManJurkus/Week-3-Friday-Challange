@@ -60,8 +60,9 @@ body {
 @media ( max-width: 560px ) {
     .row-short .partners-logo {
         width: 120px;
-        margin: 0 calc( 50% - 60px);
+        margin: 0px calc(50% - 60px);
         margin-bottom: 30px;
+        
     }
 }
 
