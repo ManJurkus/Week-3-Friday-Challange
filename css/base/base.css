@@ -58,9 +58,10 @@ body {
 }
 
 @media ( max-width: 560px ) {
-    .partners-logo {
+    .row-short .partners-logo {
         width: 120px;
-        margin: 0 calc( 50% - 60px)
+        margin: 0 calc( 50% - 60px);
+        margin-bottom: 30px;
     }
 }
 
