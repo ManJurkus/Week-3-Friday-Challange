@@ -11,15 +11,18 @@ main {
 }
 
 header,
-.container {
+.container, footer {
     width: 100%;
     padding: 60px;
+    padding-top: 0;
+    padding-bottom: 40px;
 }
 
-header {
+header, footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 60px;
 }
 
 .row {
@@ -104,4 +107,28 @@ header {
     font-size: 25px;
     display: inline-block;
     
+}
+
+.bg-green {
+    background-color: #74C69D;
+}
+
+footer {
+    background-color: #74C69D;
+  
+}
+
+.row-socials {
+    line-height: 18px;
+}
+
+.row-socials a {
+    text-decoration: none;
+    color: white;
+    margin-left: 18px;
+}
+
+.fotter-text {
+    color: white;
+    text-align: center;
 }

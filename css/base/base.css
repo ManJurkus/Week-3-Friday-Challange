@@ -11,14 +11,11 @@ body {
 
 
 
+
 @media ( max-width: 1100px ) {
     .container > .row {
-      
+
         flex-direction: column-reverse;
-        
-        padding-left: 20px;
-        padding-right: 20px;
-        
         
     }
     .container .column, .column.right-column {
@@ -46,24 +43,53 @@ body {
         display:block;
     }
 
+    footer {
+        flex-direction: column;
+        gap:18px;
+        justify-content: center;
+    }
+
+    .container > .first {
+        display:block;
+    }
+
+    header > .logo-2 {
+        height: 30px;
+    }
+    header > .meniu-logo {
+        height: 30px;
+    }
+
+    
+
     
 
     
 }
 
-@media ( max-width: 900px ) {
-    .partners-logo {
-        width: 100%;
-}
+@media ( max-width: 700px ) {
+
+    .row-short > .talent-logo { 
+        justify-content: center;
+
+    }
+
+
 }
 
 @media ( max-width: 560px ) {
-    .row-short .partners-logo {
-        width: 120px;
-        margin: 0px calc(50% - 60px);
-        margin-bottom: 30px;
+    .container > .row > .first {
+        flex-direction: column-reverse;
         
     }
+    .row-short .p-l {
+        justify-content: center;
+    }
+
+
 }
 
+@media ( max-width: 440px ) {
+
+}
 

@@ -1,5 +1,6 @@
 @import "/css/base/base.css";
 @import "/css/base/layout.css";
+@import "/css/coponents/font-awesome.min.css";
 
 .logo-1 {
     height: 50px;
@@ -52,3 +53,9 @@ p {
  .partner-text h1, p {
     color: black;
  }
+
+.talent-img {
+    width: 270px;
+}
+
+ 
