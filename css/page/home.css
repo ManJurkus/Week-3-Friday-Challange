@@ -1,6 +1,6 @@
-@import "/css/base/base.css";
-@import "/css/base/layout.css";
-@import "/css/coponents/font-awesome.min.css";
+@import "../base/base.css";
+@import "../base/layout.css";
+@import "../coponents/font-awesome.min.css";
 
 .logo-1 {
     height: 50px;
